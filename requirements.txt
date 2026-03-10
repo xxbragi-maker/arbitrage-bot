@@ -1,4 +1,16 @@
+# Основные зависимости
 python-telegram-bot==20.7
 python-dotenv==1.0.0
 aiohttp==3.9.1
 ccxt==4.1.22
+
+# Для веб-интерфейса
+fastapi==0.104.1
+uvicorn==0.24.0
+
+# Для работы с сетью
+requests==2.31.0
+asyncio==3.4.3
+
+# Для логов и мониторинга
+psutil==5.9.5
