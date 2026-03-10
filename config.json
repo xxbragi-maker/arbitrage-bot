@@ -1,0 +1,25 @@
+{
+    "trade_amount": 100,
+    "min_profit": 0.3,
+    "max_slippage": 0.1,
+    "poll_interval": 2,
+    
+    "strategies": {
+        "cross_exchange": {
+            "enabled": true,
+            "min_profit": 0.2,
+            "max_concurrent": 2
+        },
+        "triangular": {
+            "enabled": true,
+            "min_profit": 0.15,
+            "max_concurrent": 1
+        }
+    },
+    
+    "risk_management": {
+        "max_daily_trades": 50,
+        "max_daily_loss": 5.0,
+        "cooldown_seconds": 10
+    }
+}
